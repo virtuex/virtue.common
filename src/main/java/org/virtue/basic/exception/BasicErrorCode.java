@@ -19,11 +19,11 @@ public class BasicErrorCode implements Serializable {
     /**
      * 操作成功
      */
-    public static final BasicErrorCode KL_OK = new BasicErrorCode(0, "KL_OK");
+    public static final BasicErrorCode BIZ_OK = new BasicErrorCode(0, "BIZ_OK");
     /**
      * 未知异常
      */
-    public static final BasicErrorCode KL_UNKOWN = new BasicErrorCode(-1, "KL_UNKOWN");
+    public static final BasicErrorCode BIZ_UNKOWN = new BasicErrorCode(-1, "BIZ_UNKOWN");
 
     private long code = 0;
 

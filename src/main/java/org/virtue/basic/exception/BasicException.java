@@ -10,7 +10,7 @@ public class BasicException extends Exception {
 
     private static final long serialVersionUID = 1L;
 
-    protected BasicErrorCode errorCode = BasicErrorCode.KL_OK;
+    protected BasicErrorCode errorCode = BasicErrorCode.BIZ_OK;
 
     public BasicException(BasicErrorCode errCode) {
         this.errorCode = errCode;
